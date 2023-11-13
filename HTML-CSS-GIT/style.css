@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #303134;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+nav {
+    display: flex;
+    
+}
+
+nav .grayLink{
+    padding: 14px;
+}
+
+header  img{
+    max-width: 40px;
+    border-radius: 50%;
+    border: solid 1px aqua;
+    margin: 0 14px;
+    
+}
+
+.grayLink {
+    color: lightgrey;
+}
+
+a {
+    text-decoration: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 14px 0 14px;
+}
+
+.headerText {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.searchBar {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 14px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 24px;
+    margin: 14px;
+}
+.iconbuton{
+    background: transparent;
+    border: none;
+    color: darkgrey;   
+    font-size: 1.2em; 
+}
+
+.iconRightCorner{
+    display: flex;
+    gap: 14px;
+}
+
+.searchBar:hover {
+    border-color: transparent;
+    background: #334155;
+}
+
+input {
+    background: transparent;
+    outline: none;
+    border: unset;
+    color: white;
+    flex: 1;
+}
+
+.searchBttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.searchBttonContainer button {
+    background: #304155;
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: #e8eaed;
+    cursor: pointer;
+}
+
+.searchBttonContainer :hover {
+    border: 1px solid darkgrey;
+}
+
+.languageSelection {
+    font-size: 14px;
+}
+
+.languageSelection span a{
+    color: lightblue;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #202124;
+    
+    }
+
+footer section{
+    display: flex;
+    padding: 14px;
+    font-size: 14px;
+   }
+
+  
+#lastLine{
+    border-top: 1px solid #304155;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.footerlink > a{
+    padding: 0 14px 0 0;
+    font-size: 14px;
+    
+}
+
